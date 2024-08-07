@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100;
+}
+
+
+.hover\:filter-red:hover {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(88%) saturate(435%) hue-rotate(339deg) brightness(130%) contrast(100%);
+}
